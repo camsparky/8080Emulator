@@ -1,4 +1,4 @@
-#include <opcodeHandling.h>
+#include "opcodeHandling.h"
 
 void unimplementedInstruction(State8080* state){
     printf("Error: One of the instructions was not implemented\n");
